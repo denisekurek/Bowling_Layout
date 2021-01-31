@@ -1,0 +1,116 @@
+body {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.finger-container, .span-container, .thumb-contianer, .thumb-pitch-container {
+  /* border: solid 1px black; */
+  display: flex;
+  justify-content: space-around;
+  width: auto;
+  height: 100px;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.fingers, .thumb-info {
+  display: block;
+  width: 100px;
+  height: 100px;
+}
+
+#pitch {
+  /* border: solid 1px red; */
+}
+
+#pitch-arrows {
+  width: 100px;
+  height: 100px;
+}
+
+#finger {
+  /* border: solid 1px blue; */
+}
+
+.circle {
+  border: solid 1px black;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  /* background: white; */
+  color: black;
+  display: block;
+}
+
+#finger-span {
+  /* border: solid 1px green; */
+  width: 75px
+}
+
+#bridge-line {
+  width: inherit;;
+  height: inherit;
+}
+
+.span-container {
+  height: 200px;
+}
+
+.span {
+  display: block;
+  width: 25%;
+  height: 200px;
+}
+
+#span-info {
+  /* border: solid 1px red; */
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#cut-span, #actual-span {
+  width: 100px;
+  height: 50px;
+  /* border: solid 1px black; */
+}
+
+#left-span-line {
+  border: solid 1px blue;
+  width: 15%;
+}
+
+#right-span-line {
+  border: solid 1px blue;
+  width: 15%;
+}
+
+.footer {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  background-color: black;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.selector {
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin: 4px 2px;
+  width: 45%;
+  text-align: center;
+  line-height: 65px;
+}
